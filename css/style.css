@@ -1,5 +1,7 @@
 *{
 	box-sizing: border-box;
+	padding:0;
+	margin:0;
 	
 }
 
@@ -9,6 +11,7 @@ body{
 
 .top-nav{
 	background-color: darkcyan;
+
 }
 
 .brand-link{
@@ -17,6 +20,44 @@ body{
 
 .top-nav a{
 	text-decoration: none;
+}
+
+.nav-list{
+	/*line-height: 50px;*/
+	/*padding:0px 0;*/
+	border-bottom:2px solid white;
+	color:white;
+	font-size:20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #2bc3ff;
+	
+}
+.nav-list ul{
+
+}
+
+
+.nav-list li{
+	padding:20px 20px;
+	margin:5px;
+	
+}
+
+.nav-list li a{
+	padding:0;
+	color:white;
+	border-bottom:0px solid #2bc3ff;
+	/*border-style: hidden;*/
+	transition: .5s;
+}
+
+.nav-list li a:hover{
+	transition: .1s;
+	/*border-width: 10%;*/
+	border-bottom:3px solid white;.
+	border-bottom-style: 
 }
 
 .navbar{
@@ -29,27 +70,25 @@ body{
 	justify-content: space-between;/*justify content across, with space between gives us the visual as seen on the index page.*/
 	/*flex-grow: 100%;*/
 	/*margin-left: auto;*/ /* giving the nav bar a margin-left auto and then the nav bar toggle a margin left of auto also does the same thing in pushing each to the side.*/ 
+
 }
 
 .nav-toggle{
 	/*margin-left:auto;*/
+	height: 10px
 	color:white;
 	cursor: pointer;
+
 }
 
 .fa-bars{
 	/*font-size:50px;*/
 	cursor:pointer;
+	color: white;
 }
 
 .top-nav ul li{
 	list-style: none;
-
-}
-
-.top-nav ul{
-	/*display: flex;
-	flex-direction: row;*/
 }
 
 .nav-list-collapsed{
