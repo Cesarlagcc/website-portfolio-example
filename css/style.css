@@ -15,7 +15,12 @@ body{
 	color:white;
 }
 
+.top-nav a{
+	text-decoration: none;
+}
+
 .navbar{
+	/*line-height:50px;*/
 	display:flex;
 	padding:5px 20px;
 	font-size: 30px;
@@ -28,6 +33,8 @@ body{
 
 .nav-toggle{
 	/*margin-left:auto;*/
+	color:white;
+	cursor: pointer;
 }
 
 .fa-bars{
@@ -48,5 +55,6 @@ body{
 .nav-list-collapsed{
 	display: none;
 }
+
 
 
