@@ -1,7 +1,52 @@
 *{
 	box-sizing: border-box;
+	
 }
 
 body{
-	background-color:darkcyan;
+	background-color:#000;
 }
+
+.top-nav{
+	background-color: darkcyan;
+}
+
+.brand-link{
+	color:white;
+}
+
+.navbar{
+	display:flex;
+	padding:5px 20px;
+	font-size: 30px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;/*justify content across, with space between gives us the visual as seen on the index page.*/
+	/*flex-grow: 100%;*/
+	/*margin-left: auto;*/ /* giving the nav bar a margin-left auto and then the nav bar toggle a margin left of auto also does the same thing in pushing each to the side.*/ 
+}
+
+.nav-toggle{
+	/*margin-left:auto;*/
+}
+
+.fa-bars{
+	/*font-size:50px;*/
+	cursor:pointer;
+}
+
+.top-nav ul li{
+	list-style: none;
+
+}
+
+.top-nav ul{
+	/*display: flex;
+	flex-direction: row;*/
+}
+
+.nav-list-collapsed{
+	display: none;
+}
+
+
